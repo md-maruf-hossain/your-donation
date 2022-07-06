@@ -178,11 +178,23 @@ body {
 }
 /* Donate our plan end */
 /* subscribe */
+#update-text {
+  margin-top: 50px;
+  text-align: center;
+}
+#update-text h2 {
+  font-size: 25px;
+}
+#update-text p {
+  margin: 20px auto;
+  font-size: 18px;
+  width: 800px;
+}
 #update {
   display: flex;
   width: 0px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 100px 500px;
   background-color: #fff4d6;
   align-items: center;
@@ -208,7 +220,57 @@ body {
 /* subscribe end */
 
 /* join-us */
-
+#join-us {
+  height: 669px;
+  background: url(images/donation5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  z-index: 1;
+  margin: auto;
+  margin-top: 100px;
+  padding: 10px;
+}
+#join-us::after {
+  content: "";
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  z-index: -1;
+}
+.join-us-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 200px;
+  padding: 60px;
+  background-color: #ff5959;
+}
+.join-us-text-h1 {
+  font-size: 35px;
+  color: white;
+}
+.join-us-text p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.join-us-btn {
+  margin-top: 30px;
+  border: 2px solid white;
+  font-weight: 400;
+}
+.join-us-btn:hover {
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+}
 
 /* join-us end */
 
