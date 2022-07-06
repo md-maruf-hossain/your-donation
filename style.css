@@ -123,7 +123,7 @@ body {
   padding: 20px;
   border-bottom: 2px solid #dadada;
 }
-::placeholder {
+t::placeholder {
   font-size: 16px;
   color: #b3b3b3;
   text-align: center;
@@ -181,11 +181,50 @@ body {
   width: 300px;
 }
 /* Donate our plan end */
+/* subscribe */
+#update{
+  display: flex;
+  width: 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 100px 500px;
+  background-color: #FFF4D6;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.subscribe input{
+  background-color: #D9D9D9;
+  padding: 10px 80px;
+  border: none;
+  font-size: 18px;
+  padding-left: 10px;
+}
+.btn-update{
+  color: white;
+  background-color: #ff5959;
+  padding: 12px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+
+/* subscribe end */
+
+
+
+
+
+
+
+
+
 
 /* footer */
 footer {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
   height: 150px;
   background-color: black;
   text-align: center;
