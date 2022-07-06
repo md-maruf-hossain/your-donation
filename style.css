@@ -121,6 +121,7 @@ body {
   width: 700px;
   border: none;
   padding: 20px;
+  font-size: 18px;
   border-bottom: 2px solid #dadada;
   text-align: center;
 }
