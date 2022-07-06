@@ -5,6 +5,7 @@
 body {
   font-family: "Lato", sans-serif;
 }
+/* banner */
 #banner {
   height: 669px;
   background: url(images/donation7.jpg);
@@ -63,6 +64,9 @@ body {
   background: white;
   color: black;
 }
+/* banner end */
+
+/* Donate today */
 .second-sec {
   padding-top: 100px;
   align-items: center;
@@ -139,7 +143,46 @@ body {
   background-color: rgba(255, 89, 89, 0.6);
   color: black;
 }
+/* Donate today end */
 
+/* donate our plan */
+#plan {
+  margin-top: 40px;
+}
+#planning-h2-p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#donate-cards {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  padding: 40px 130px 40px 35px;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 200px;
+  margin: 0 10px;
+  flex-direction: column;
+  align-items: baseline;
+}
+.cards h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.cards p {
+  margin-top: 20px;
+  text-align: justify;
+  width: 300px;
+}
+/* Donate our plan end */
+
+/* footer */
 footer {
   display: flex;
   flex-direction: column;
@@ -159,3 +202,13 @@ footer p {
   font-family: "Lato", sans-serif;
   font-size: 15px;
 }
+#plan-cards-01 {
+  background-color: rgba(79, 157, 166, 0.2);
+}
+#plan-cards-02 {
+  background-color: rgba(255, 89, 89, 0.2);
+}
+#plan-cards-03 {
+  background-color: rgba(255, 244, 214, 0.3);
+}
+/* footer end */
