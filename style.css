@@ -10,7 +10,7 @@ body {
   height: 669px;
   background: url(images/donation7.jpg);
   background-repeat: no-repeat;
-  width: 98.7%;
+  background-size: cover;
   position: relative;
   justify-content: center;
   z-index: 1;
@@ -116,16 +116,12 @@ body {
   align-items: center;
   border: 2px solid #ff5959;
 }
-#amount-form input {
+.amount-form input {
   margin-top: 30px;
   width: 700px;
   border: none;
   padding: 20px;
   border-bottom: 2px solid #dadada;
-}
-t::placeholder {
-  font-size: 16px;
-  color: #b3b3b3;
   text-align: center;
 }
 .btn-other-sec {
@@ -182,43 +178,39 @@ t::placeholder {
 }
 /* Donate our plan end */
 /* subscribe */
-#update{
+#update {
   display: flex;
   width: 0px;
   margin: 0 auto;
   margin-top: 50px;
   padding: 100px 500px;
-  background-color: #FFF4D6;
+  background-color: #fff4d6;
   align-items: center;
   justify-content: center;
   flex-wrap: nowrap;
 }
-.subscribe input{
-  background-color: #D9D9D9;
+.subscribe input {
+  background-color: #d9d9d9;
   padding: 10px 80px;
   border: none;
   font-size: 18px;
   padding-left: 10px;
+  text-align: left;
 }
-.btn-update{
+.btn-update {
   color: white;
   background-color: #ff5959;
-  padding: 12px 40px;
+  padding: 11.5px 40px;
   font-size: 16px;
   cursor: pointer;
   border: none;
 }
-
 /* subscribe end */
 
+/* join-us */
 
 
-
-
-
-
-
-
+/* join-us end */
 
 /* footer */
 footer {
