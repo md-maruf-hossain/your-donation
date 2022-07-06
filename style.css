@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+#banner {
+  height: 669px;
+  background: url(images/donation7.jpg);
+  background-repeat: no-repeat;
+  width: 98.7%;
+  position: relative;
+  justify-content: center;
+  z-index: 1;
+  margin: auto;
+  padding: 10px;
+}
+#banner::after {
+  content: "";
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: -1;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 150px;
+}
+.top-paragraph {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  padding-top: 30px;
+  width: 826px;
+}
+.top-btn {
+  padding-top: 40px;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 13px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.btn:hover {
+  background: white;
+  color: black;
+}
+.second-sec {
+  padding-top: 100px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.h2-other-sec {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.p-other-sec {
+  text-align: center;
+  width: 691px;
+  font-size: 18px;
+  color: #707070;
+  padding-top: 30px;
+}
+#donation-money {
+  display: flex;
+  padding-top: 30px;
+}
+.donation-money-p {
+  display: flex;
+  margin: 20px;
+  height: 135px;
+  width: 160px;
+  border-radius: 7px;
+  color: #707070;
+  background-color: #f2f2f2;
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+}
+#coloured-p {
+  display: flex;
+  margin: 20px;
+  height: 135px;
+  width: 160px;
+  border-radius: 7px;
+  color: #ff5959;
+  background-color: rgba(255, 89, 89, 0.4);
+  font-size: 30px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ff5959;
+}
+#amount-form input {
+  margin-top: 30px;
+  width: 700px;
+  border: none;
+  padding: 20px;
+  border-bottom: 2px solid #dadada;
+}
+::placeholder {
+  font-size: 16px;
+  color: #b3b3b3;
+  text-align: center;
+}
+.btn-other-sec {
+  text-decoration: none;
+  color: white;
+  background-color: #ff5959;
+  padding: 13px 40px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+}
+.btn-other-sec:hover {
+  background-color: rgba(255, 89, 89, 0.6);
+  color: black;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: 35px;
+  color: #ff5959;
+  font-family: "Lobster", cursive;
+}
+.footer-paragraph {
+  color: #d9dbe1;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
